@@ -1,0 +1,28 @@
+body{
+    background-color: #EEEEEE;
+    color: #A9A9A9;
+}
+
+h1 {
+    text-align: center;
+}
+
+.circle {
+    display: flex;
+    justify-content: center;
+    margin: 2em;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+}
+
+span {
+    display: inline-flex;
+    padding: 1em;
+}
+
+span label {
+    margin: 1em;
+}

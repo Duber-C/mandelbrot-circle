@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mandelbrot</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <h1>Mandelbrot</h1>
+    <div class="circle">
+      <div>
+        <canvas id="canvas" width="600" height="600"></canvas>
+      </div>
+    </div>
+    <div class="controls">
+      <span>
+        <label for="number">Number</label>
+        <input
+          type="range"
+          name="number"
+          id="number"
+          min="0"
+          max="300"
+          value="2"
+          step="0.1"
+        />
+        <label id="counter">0</label>
+      </span>
+      <span>
+        <label for="points">Points</label>
+        <input
+          type="range"
+          name="points"
+          id="points"
+          min="10"
+          max="300"
+          value="10"
+        />
+      </span>
+      <span>
+        <input type="button" value="animate" onclick="animateMandelbrot()" />
+      </span>
+    </div>
+  </body>
+</html>
