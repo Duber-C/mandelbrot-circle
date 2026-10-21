@@ -1,2 +1,2 @@
-# mandelbrot-circle
-the beautiful mandelbrot circle
+# Mandelbrot Circle
+The beautiful mandelbrot circle
